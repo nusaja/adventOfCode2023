@@ -12,7 +12,6 @@ $result = 0;
 
 foreach ($games as $game) {
 
-
     $maxRed = checkMaxOfCubes($patternRed, $game);
     $maxGreen = checkMaxOfCubes($patternGreen, $game);
     $maxBlue = checkMaxOfCubes($patternBlue, $game);
